@@ -1,0 +1,40 @@
+@page "/vardiyalar"
+
+<div class="container mt-4" style="max-width: 600px;">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="fw-bold text-primary m-0">Günlük Vardiya Listesi</h4>
+        <span class="badge bg-secondary fs-6">@DateTime.Now.ToString("dd.MM.yyyy")</span>
+    </div>
+
+    <div class="card shadow-sm border-0 mb-3">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="fw-bold mb-1">Hat 1 - Otogar / Üniversite</h6>
+                    <small class="text-muted">Araç No: Tram-04</small>
+                </div>
+                <div class="text-end">
+                    <span class="badge bg-success mb-1">06:00 - 14:00</span>
+                    <br />
+                    <small class="fw-semibold text-dark">Görkem V.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-sm border-0 mb-3">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h6 class="fw-bold mb-1">Hat 2 - SSK / Batıkent</h6>
+                    <small class="text-muted">Araç No: Tram-12</small>
+                </div>
+                <div class="text-end">
+                    <span class="badge bg-warning text-dark mb-1">14:00 - 22:00</span>
+                    <br />
+                    <small class="fw-semibold text-dark">Ahmet K.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
